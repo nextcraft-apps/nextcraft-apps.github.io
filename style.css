@@ -24,5 +24,10 @@ p, li { color: var(--text); }
 a { color: var(--accent); }
 .card { background: var(--card); border-radius: 16px; padding: 16px 20px; margin: 12px 0; }
 ul { padding-left: 20px; }
+.card h3 { font-size: 1.05rem; margin: 4px 0 8px; }
+.card p { margin: 6px 0; }
+.toc ol { margin: 8px 0 0; padding-left: 22px; columns: 2; column-gap: 24px; }
+@media (max-width: 520px) { .toc ol { columns: 1; } }
+h2[id] { scroll-margin-top: 16px; }
 footer { margin-top: 48px; color: var(--dim); font-size: 0.9rem; }
 footer a { margin-right: 14px; }
